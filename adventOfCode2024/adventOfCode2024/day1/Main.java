@@ -1,4 +1,4 @@
-package day1;
+package adventOfCode2024.day1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\franz\\Downloads\\input.txt";
+    	String filePath = "./adventOfCode2024/adventOfCode2024/day1/resources/input.txt";
 
         Pair<List<Integer>, List<Integer>> result = readFileIntoColumns(filePath);
 
