@@ -1,11 +1,15 @@
 package adventOfCode2024;
 
 import adventOfCode2024.day1.Day1;
+import adventOfCode2024.day10.Day10;
 import adventOfCode2024.day2.Day2;
 import adventOfCode2024.day3.Day3;
 import adventOfCode2024.day4.Day4;
 import adventOfCode2024.day5.Day5;
 import adventOfCode2024.day6.Day6;
+import adventOfCode2024.day7.Day7;
+import adventOfCode2024.day8.Day8;
+import adventOfCode2024.day9.Day9;
 
 public class Main {
 	public static void main(String[] args) {
@@ -28,6 +32,14 @@ public class Main {
 			Day5.run();
 		case "day6":
 			Day6.run();
+		case "day7":
+			Day7.run();
+		case "day8":
+			Day8.run();
+		case "day9":
+			Day9.run();
+		case "day10":
+			Day10.run();
 		}
 	}
 }
