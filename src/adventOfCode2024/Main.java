@@ -2,6 +2,7 @@ package adventOfCode2024;
 
 import adventOfCode2024.day1.Day1;
 import adventOfCode2024.day10.Day10;
+import adventOfCode2024.day11.Day11;
 import adventOfCode2024.day2.Day2;
 import adventOfCode2024.day3.Day3;
 import adventOfCode2024.day4.Day4;
@@ -40,6 +41,8 @@ public class Main {
 			Day9.run();
 		case "day10":
 			Day10.run();
+		case "day11":
+			Day11.run();
 		}
 	}
 }
