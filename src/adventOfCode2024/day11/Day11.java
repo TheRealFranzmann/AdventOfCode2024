@@ -83,7 +83,7 @@ public class Day11 extends AbstractFileReader {
     }
     
     
-    // my code didnt work so here the solution from someone else
+    // my code didnt work (Java Heap Space) so here the solution from someone else
     private static String INPUT = "28591 78 0 3159881 4254 524155 598 1";
     
     private static int index = 1;
@@ -104,8 +104,8 @@ public class Day11 extends AbstractFileReader {
         }
         System.out.println("Took: " + (System.currentTimeMillis() - s) + "ms");
 
-        System.out.println("Part 1: " + total1); // 228668
-        System.out.println("Part 2: " + total2); // 270673834779359
+        System.out.println("Part 1: " + total1);
+        System.out.println("Part 2: " + total2);
     }
     private static long count(long num, int blinksLeft) {
         if (blinksLeft == 0) {
